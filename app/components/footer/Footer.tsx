@@ -23,12 +23,12 @@ const Footer = () => {
         >
           <FooterList>
             <h3 className="text-base font-bold mb-2">Shop Categories</h3>
-            <Link href={"#"}>Dress</Link>
-            <Link href={"#"}>Dress</Link>
-            <Link href={"#"}>Dress</Link>
-            <Link href={"#"}>Dress</Link>
-            <Link href={"#"}>Dress</Link>
-            <Link href={"#"}>Dress</Link>
+            <Link href={"#"}>Men</Link>
+            <Link href={"#"}>Women</Link>
+            <Link href={"#"}>Electronics</Link>
+            <Link href={"#"}>Kids</Link>
+            <Link href={"#"}>Accessories</Link>
+            <Link href={"#"}>Home Decor</Link>
           </FooterList>
           <FooterList>
             <h3 className="text-base font-bold mb-2">Customer Service</h3>
@@ -51,7 +51,8 @@ const Footer = () => {
           </div>
           <FooterList>
           <h3 className="text-base font-bold mb-2">About Us</h3>
-          <div className="flex gap-2">
+          <div className="flex gap-2
+          ">
           <Link href={"#"}><FaFacebook /></Link>
           <Link href={"#"}><AiFillTwitterCircle /></Link>
           <Link href={"#"}><IoLogoYoutube /></Link>
